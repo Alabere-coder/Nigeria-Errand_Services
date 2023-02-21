@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-        <div>
+        <footer>
             <h3>copyright @ 2023</h3>
-        </div>
+        </footer>
     );
 }
 
