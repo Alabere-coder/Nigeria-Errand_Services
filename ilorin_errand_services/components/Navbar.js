@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="nav">
             <div className="logo">
                 <h1>Ilorin Errand Services</h1>
             </div>
@@ -16,9 +16,9 @@ const Navbar = () => {
                 </Link>
                 </li>
                 <li><Link href="/services" legacyBehavior>
-                    <a> Section1</a>
+                    <a> Our Services</a>
                 </Link>
-                    <ul>
+                    {/* <ul>
                         <li>
                             <Link href="/services/sector1">Home Services</Link>
                         </li>
@@ -31,7 +31,7 @@ const Navbar = () => {
                         <li>
                             <Link href="/services/sector1">Goods</Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
 
                 <li><Link href="/price" legacyBehavior>

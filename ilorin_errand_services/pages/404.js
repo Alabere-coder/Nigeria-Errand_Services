@@ -7,15 +7,14 @@ const NotFound = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            router.push("/")
+            // router.push("/")
         }, 4000)
     }, [])
     return (
         <div className="not__found">
-            <h1>Oops...</h1>
+            <h1>Oooooops...</h1>
             <h2>The page you Request for could not be Found</h2>
-            <p>Go back to <Link href="/" legacyBehavior><a>Homepasge</a></Link></p>
-
+            <p>Go back to <Link href="/" legacyBehavior><a>Homepage</a></Link></p>
         </div>
     );
 }
